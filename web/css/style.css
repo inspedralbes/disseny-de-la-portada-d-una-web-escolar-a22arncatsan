@@ -1,0 +1,52 @@
+/* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  background-color: #F2F2F2;
+  color: #262223;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  font-family: 'Titillium Web', sans-serif;
+  border-top: 5px solid #262223;
+  border-bottom: 5px solid #262223;
+  background-color: #05C7F2;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
