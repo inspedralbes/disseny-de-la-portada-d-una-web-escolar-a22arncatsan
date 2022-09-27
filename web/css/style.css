@@ -83,3 +83,14 @@ a[href^="http"]::before {
 section p:first-of-type {
     text-indent: 20px;
 }
+nav ul li, aside ul li {
+  background-color: #bde8f280;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid #262223;
+}
+nav ul, aside ul {
+  list-style-type: none;
+  padding: 0;
+}
