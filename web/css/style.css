@@ -25,6 +25,15 @@ section {
     float: left;
     width: 50%;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: red;
+}
+.grid > div {
+    margin: 50px;
+    background-color: #05C7F2;
+}
 
 aside {
     float: left;
@@ -83,16 +92,15 @@ a[href^="http"]::before {
 section h2 + p {
     text-indent: 20px;
 }
-nav ul li,
-aside ul li {
+nav ul li {
     background-color: #F2F2F2;
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 5px 10px;
     border: 1px solid #262223;
+    font-size: 18px;
 }
-nav ul,
-aside ul {
+nav ul {
     list-style-type: none;
     padding: 0;
 }
